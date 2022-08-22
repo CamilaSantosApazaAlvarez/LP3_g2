@@ -9,5 +9,9 @@ public class Principal {
 		System.out.println("Numero? ");
 		vida = sc.nextInt();
 		System.out.println("Numero ingresado: " + vida);
+	
+		for (int i=1; i <= vida; i++)
+			rp += i;
+		System.out.println("La suma es: " + rp);
 	}
 }
